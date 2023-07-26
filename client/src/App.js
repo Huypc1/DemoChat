@@ -3,7 +3,7 @@ import './App.css';
 import io from 'socket.io-client';
 import React,{useState} from 'react';
 import Chat from './Chat';
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://api.render.com/deploy/srv-cj0a40tph6ek4q4up34g?key=5_nTvU49_QU");
 function App() {
   const [username, setUsename] = useState('');
   const [room, setRoom] = useState('');
